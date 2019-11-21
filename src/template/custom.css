@@ -1,7 +1,28 @@
+@font-face {
+    font-family: 'RobotoMono';
+    src: url('../fonts/RobotoMono-Thin.ttf');
+}
+
+@font-face {
+    font-family: 'Titillium Web';
+    src: url('../fonts/TitilliumWeb-Regular.ttf');
+}
+
 :root {
     --primary-color: #2c3e50;
 }
 
 .bg-color-custom {
     background-color: var(--primary-color);
+}
+
+.bg {
+    background-image: url('../assets/bg.jpg');
+    border-radius: 0;
+
+    font-family: 'RobotoMono', monospace;
+}
+
+h1, h2,h3, h4, h5, p {
+    color: white;
 }
